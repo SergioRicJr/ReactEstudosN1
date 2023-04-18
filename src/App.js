@@ -1,14 +1,12 @@
 import Button from "./components/button";
+import Input from "./components/input";
+import { Container, Content } from "./styles";
 
 function App() {
-  return (<>
-    <div className="App">
-       <h1>Olá react</h1>
-        <Button title="Entrar"/>
-        <Button title="Fechar"/>
-        <Button title="Entrar"/>
-    </div>
-    </>
+  return (
+    <Container>
+        Oláaa
+    </Container>
   );
 }
 
