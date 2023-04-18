@@ -1,6 +1,9 @@
-export default function Button({title}) {
+import { ButtonContainer } from "./styles"
+
+export default function Button({lable, onClick}) {
     return (
-        <button>{title}</button>
-        // <div>index</div>
+        <ButtonContainer onClick={onClick} type="button">
+            {lable} 
+        </ButtonContainer>
     )
 }
